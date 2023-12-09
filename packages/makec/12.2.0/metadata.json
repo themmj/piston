@@ -1,10 +1,10 @@
 {
-    "language": "make-c",
+    "language": "makec",
     "version": "12.2.0",
     "provides": [
         {
             "language": "c",
-            "aliases": ["gcc"]
+            "aliases": ["make"]
         }
     ]
 }
