@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+# Put instructions to compile source code, remove this file if the language does not require this stage
+
+
+case "${PISTON_LANGUAGE}" in
+    c)
+        make
+        chmod +x out/main
+        ;;
+    *)
+        echo "How did you get here? (${PISTON_LANGUAGE})"
+        exit 1
+        ;;
+esac
+
